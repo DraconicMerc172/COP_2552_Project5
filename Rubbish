@@ -1,0 +1,42 @@
+ _________________________            ________________________
+|          MovieDirector  |          |        Movie         |
+|-------------------------|          |----------------------|
+|-------------------------|          |----------------------|
+| - directorName: String |          | - title: String      |
+| - composerName: String |          | - yearReleased: int  |
+|-------------------------|          | - genre: String      |
+| + getDirectorName(): String|       | - rating: String     |
+| + setDirectorName(name: String) |   |----------------------|
+| + getComposerName(): String|        | + getTitle(): String |
+| + setComposerName(name: String) |    | + setTitle(title: String) |
+|-------------------------|          | + getYearReleased(): int |
+                                     | + setYearReleased(year: int) |
+                                     | + getGenre(): String |
+                                     | + setGenre(genre: String) |
+                                     | + getRating(): String |
+                                     | + setRating(rating: String) |
+                                     |----------------------|
+                                     |______________________|
+
+Explanation:
+
+MovieDirector: Superclass to hold director and composer information.
+
+Attributes:
+directorName: String - holds the name of the director.
+composerName: String - holds the name of the composer.
+Methods:
+getDirectorName(): String - returns the director's name.
+setDirectorName(name: String) - sets the director's name.
+getComposerName(): String - returns the composer's name.
+setComposerName(name: String) - sets the composer's name.
+Movie: Subclass inheriting from MovieDirector, holds movie information.
+
+Attributes:
+title: String - holds the title of the movie.
+yearReleased: int - holds the year the movie was released.
+genre: String - holds the genre of the movie.
+rating: String - holds the rating of the movie.
+Methods:
+Accessor and mutator methods for each attribute (getTitle(), setTitle(title: String), getYearReleased(), setYearReleased(year: int), getGenre(), setGenre(genre: String), getRating(), setRating(rating: String)).
+This structure should help organize your Java classes for the given project requirements.
