@@ -2,13 +2,13 @@
 |          MovieDirector  |          |        Movie         |
 |-------------------------|          |----------------------|
 |-------------------------|          |----------------------|
-| - directorName: String |          | - title: String      |
-| - composerName: String |          | - yearReleased: int  |
+| - directorName: String |           | - title: String      |
+| - composerName: String |           | - yearReleased: int  |
 |-------------------------|          | - genre: String      |
 | + getDirectorName(): String|       | - rating: String     |
-| + setDirectorName(name: String) |   |----------------------|
-| + getComposerName(): String|        | + getTitle(): String |
-| + setComposerName(name: String) |    | + setTitle(title: String) |
+| + setDirectorName(name: String) |  |----------------------|
+| + getComposerName(): String|       | + getTitle(): String |
+| + setComposerName(name: String) |  | + setTitle(title: String) |
 |-------------------------|          | + getYearReleased(): int |
                                      | + setYearReleased(year: int) |
                                      | + getGenre(): String |
